@@ -35,6 +35,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		603EA0EF2111247E00B64A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60698CCE210F9DF7009F2D04 /* AppDelegate.swift */,
+				60698CD5210F9DF9009F2D04 /* Assets.xcassets */,
+				60698CDA210F9DF9009F2D04 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		603EA0F02111249600B64A23 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				60698CD2210F9DF7009F2D04 /* Main.storyboard */,
+				60698CD7210F9DF9009F2D04 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		603EA0F1211124A900B64A23 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60698CD0210F9DF7009F2D04 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		60698CC2210F9DF7009F2D04 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +81,9 @@
 		60698CCD210F9DF7009F2D04 /* AboutMe */ = {
 			isa = PBXGroup;
 			children = (
-				60698CCE210F9DF7009F2D04 /* AppDelegate.swift */,
-				60698CD0210F9DF7009F2D04 /* ViewController.swift */,
-				60698CD2210F9DF7009F2D04 /* Main.storyboard */,
-				60698CD5210F9DF9009F2D04 /* Assets.xcassets */,
-				60698CD7210F9DF9009F2D04 /* LaunchScreen.storyboard */,
-				60698CDA210F9DF9009F2D04 /* Info.plist */,
+				603EA0F1211124A900B64A23 /* ViewController */,
+				603EA0F02111249600B64A23 /* Storyboards */,
+				603EA0EF2111247E00B64A23 /* Resources */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -282,7 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KP8U9QDYN;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AboutMe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KP8U9QDYN;
-				INFOPLIST_FILE = AboutMe/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AboutMe/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
